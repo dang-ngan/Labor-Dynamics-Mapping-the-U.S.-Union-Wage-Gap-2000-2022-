@@ -16,12 +16,12 @@ This project investigates the **"Union Wage Premium"** across the United States 
 
 ## Repository Structure
 
-| Folder/File | Description |
+| File | Description |
 | :--- | :--- |
-| `/data` | Contains the raw and processed CSV datasets [(here)](https://drive.google.com/file/d/1698Slt-20ZaMxzCxzrMkwlemHL2idbEb/view?usp=sharing). |
-| `/notebooks` | Python scripts/Jupyter Notebooks used for the WLS regression and data cleaning [(here)](https://colab.research.google.com/drive/1vXaSN6c2rIwf4Nw-Pg-B7ypSAebugzE6?usp=sharing)). |
-| `/tableau` | The `.twbx` workbook for the interactive dashboard [(here)](https://public.tableau.com/views/union_wage/UnionWageDynamicsDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link). |
-| `README.md` | Project summary, methodology, and findings. |
+| [**Analysis Notebook**](./Union_Wage_Premium_Analysis.ipynb) | Full Python workflow: Data cleaning, WLS modeling, and visualization. |
+| [**Tableau Workbook**](./union_wage_tableau.twb) | The source `.twb` file for the interactive dashboard. |
+| [**Interactive Dashboard**](https://public.tableau.com/views/union_wage/UnionWageDynamicsDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) | **Live Link** to the interactive visualization on Tableau Public. |
+| [**Raw Data**](https://drive.google.com/file/d/1698Slt-20ZaMxzCxzrMkwlemHL2idbEb/view?usp=sharing) | Hosted on Google Drive due to GitHub file size constraints. |
 
 ---
 
