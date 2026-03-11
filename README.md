@@ -33,7 +33,28 @@ However, longitudinal data shows significant variance across demographic groups.
 
 ---
 
-## Methodology: Adjusted Premium CalculationTo move beyond raw averages—which are often skewed by differences in education, age, or location—this study employs a Weighted Least Squares (WLS) regression model. This approach "levels the playing field," comparing union and non-union workers with similar demographic profiles.The ModelThe wage advantage is estimated using a semi-logarithmic equation:$$\ln(\text{Wage}) = \beta_0 + \beta_1(\text{Union\_Status}) + \sum \gamma_i(X_i) + \epsilon$$Where:$\ln(\text{Wage})$ is the natural log of hourly earnings.$\beta_1$ represents the raw union coefficient.$X_i$ represents control variables: Age, Sex, Race, Education Level, and Geographic Region.The model is weighted by the survey's final weight variable (wtfinl) to ensure national representativeness.Transforming ResultsBecause the dependent variable is logarithmic, the coefficient $\beta_1$ is transformed to a percentage to be easily interpreted on the Tableau dashboard:$$\text{Adjusted Premium \%} = (e^{\beta_1} - 1) \times 100$$
+## Methodology: Adjusted Premium Calculation
+
+To move beyond raw averages, which are often skewed by differences in education, age, or location—this study employs a **Weighted Least Squares (WLS)** regression model. This approach "levels the playing field," comparing union and non-union workers with similar demographic profiles.
+
+### The Model
+
+The wage advantage is estimated using a semi-logarithmic equation:
+
+$$\ln(\text{Wage}) = \beta_0 + \beta_1(\text{Union Status}) + \sum \gamma_i(X_i) + \epsilon$$
+
+**Where:**
+
+* **$\ln(\text{Wage})$**: The natural log of hourly earnings.
+* **$\beta_1$**: The raw union coefficient.
+* **$X_i$**: Control variables (Age, Sex, Race, Education, and Region).
+* **Weighting**: The model is weighted by the survey's final weight variable (`wtfinl`).
+
+### Transforming Results
+
+Because the dependent variable is logarithmic, the coefficient $\beta_1$ is transformed to a percentage for the Tableau dashboard:
+
+$$\text{Adjusted Premium} = (e^{\beta_1} - 1) \times 100$$
 
 ---
 
