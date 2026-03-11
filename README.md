@@ -18,9 +18,9 @@ This project investigates the **"Union Wage Premium"** across the United States 
 
 | Folder/File | Description |
 | :--- | :--- |
-| `/data` | Contains the raw and processed CSV datasets. |
+| `/data` | Contains the raw and processed CSV datasets [(here)](https://drive.google.com/file/d/1698Slt-20ZaMxzCxzrMkwlemHL2idbEb/view?usp=sharing). |
 | `/notebooks` | Python scripts/Jupyter Notebooks used for the WLS regression and data cleaning. |
-| `/tableau` | The `.twbx` workbook file for the interactive dashboard. |
+| `/tableau` | The `.twbx` workbook for the interactive dashboard [(here)](https://public.tableau.com/views/union_wage/UnionWageDynamicsDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link). |
 | `README.md` | Project summary, methodology, and findings. |
 
 ---
