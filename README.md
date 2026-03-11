@@ -62,3 +62,12 @@ $$\text{Adjusted Premium} = (e^{\beta_1} - 1) \times 100$$
 
 * **Data Blending:** Established relationships between modeled regression results and raw state metrics to allow for a single global "Year" filter.
 * **Dynamic Visualizations:** Implemented custom Dashboard Actions to balance global context and local detail, using Highlight actions to maintain 20-year trend perspectives while filtering for specific states.
+
+---
+
+## Installation & Setup
+
+To run the analysis notebook locally, ensure you have Python 3.x installed along with the following libraries:
+
+```bash
+pip install pandas numpy matplotlib seaborn statsmodels
